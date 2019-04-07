@@ -1,0 +1,55 @@
+/* Giving our navbar some padding background*/
+body {
+    background: url(ice.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #d8f0f3;
+  } 
+
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.navbar-brand {
+
+  font-weight: bold;
+  font-family:'Segoe UI', sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    background: #dcedf1;
+  }
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+  
+  /* Getting rid of the default link styles here */
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+
+  .nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Calibri;
+  }
+
+  .margin-top-80 {
+    margin-top: 80px;
+  }
+  
